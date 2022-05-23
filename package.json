@@ -1,26 +1,15 @@
 {
-  "name": "@playwind/com.google.play.integrity",
+  "name": "com.google.play.integrity",
   "displayName": "Google Play Integrity",
   "description": "Provides Play Integrity API support for Unity runtime",
   "version": "1.0.0",
   "unity": "2017.4",
-  "author": "Google LLC",
+  "author": {
+    "name": "Google LLC"
+  },
   "dependencies": {
     "com.google.play.common": "1.7.0",
     "com.google.play.core": "1.7.0"
   },
-  "license": "Apache-2.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/xinatcg/GooglePlayIntegrity.git"
-  },
-  "keywords": [],
-  "bugs": {
-    "url": "https://github.com/xinatcg/GooglePlayIntegrity/issues"
-  },
-  "homepage": "https://github.com/xinatcg/GooglePlayIntegrity#readme"
+  "license": "Apache-2.0"
 }
